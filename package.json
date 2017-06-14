@@ -22,7 +22,7 @@
     "shasum": "7afa94ce66da7fe7e9fe3b4b723a57241f01d3c4",
     "tarball": "https://registry.npmjs.org/passport-okta/-/passport-okta-1.0.tgz"
   },
-  "homepage": "https://github.com/stormpath/passport-stormpath",
+  "homepage": "https://github.com/ListnPlay/passport-okta",
   "keywords": [
     "okta",
     "passport"
@@ -39,7 +39,7 @@
   "optionalDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/stormpath/passport-stormpath.git"
+    "url": "https://github.com/ListnPlay/passport-okta"
   },
   "scripts": {
     "coverage": "node ./node_modules/istanbul/lib/cli cover ./node_modules/mocha/bin/_mocha",

@@ -1,0 +1,49 @@
+{
+  "dependencies": {
+    "okta-node": "git+https://github.com/ListnPlay/okta-node.git",
+    "passport": "^0.2.0"
+  },
+  "description": "Okta Passport Strategy",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt": "^0.4.4",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "^0.10.0",
+    "istanbul": "^0.2.7",
+    "jshint-stylish": "^0.1.5",
+    "mocha": "^1.18.2",
+    "proxyquire": "^0.6.0",
+    "sinon": "^1.9.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "7afa94ce66da7fe7e9fe3b4b723a57241f01d3c4",
+    "tarball": "https://registry.npmjs.org/passport-okta/-/passport-okta-1.0.tgz"
+  },
+  "homepage": "https://github.com/stormpath/passport-stormpath",
+  "keywords": [
+    "okta",
+    "passport"
+  ],
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "feature.fm",
+      "email": "support@feature.fm"
+    }
+  ],
+  "name": "passport-okta",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stormpath/passport-stormpath.git"
+  },
+  "scripts": {
+    "coverage": "node ./node_modules/istanbul/lib/cli cover ./node_modules/mocha/bin/_mocha",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "version": "1.0.0"
+}

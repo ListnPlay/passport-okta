@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "okta-node": "git+https://github.com/ListnPlay/okta-node.git",
-    "passport": "^0.2.0"
+    "passport": "^0.4.0"
   },
   "description": "Okta Passport Strategy",
   "devDependencies": {
